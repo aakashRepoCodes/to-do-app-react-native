@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Task from './components/Task';
 
 export default function App() {
   return (
@@ -11,6 +12,14 @@ export default function App() {
         <Text style={styles.sectionTitle}> Today's Task   </Text>
 
         <View style={styles.items}>
+          {/* This is the to do list*/}
+
+          <Task text={'This is a dummy task as Task 1'} />
+          <Task text={' task as Task 2'} />
+          <Task text={'This is a dummy task as Task 3'} />
+          <Task text={'This is a dummy task as Task 4'} />
+          <Task text={'This is a dummy task as Task 5'} />
+          < Task text={'This is a dummy task as Task 5'} />
 
         </View>
 
