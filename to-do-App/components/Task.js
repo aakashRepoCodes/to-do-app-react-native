@@ -12,8 +12,9 @@ const Task = (props) => {
                 <View>
                     <Text> Task: {props.text}</Text>
                 </View>
-
             </View>
+
+            <View style={styles.circularLogo}></View>
 
         </View>
     )
@@ -42,6 +43,12 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         opacity: 0.4,
         marginRight: 14
+    },
+    circularLogo: {
+        width: 12,
+        height: 12,
+        borderColor: 4,
+        borderRadius: 2,
     }
 
 })
